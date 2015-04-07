@@ -12,7 +12,7 @@ var Busboy = require('busboy'),
         alias: 'config',
         requiresArg: true,
         config: true,
-        describe: 'Path to JSON config file containing the same options'
+        describe: 'Path to JSON config file containing these same options'
       },
       'a': {
         alias: 'address',
