@@ -411,7 +411,7 @@ setInterval(function() {
         if (res.wantsJSON)
           res.end('{"message":"Bounce expired"}');
         else if (textOnly)
-          res.end('\n\nBounce expired\n');
+          res.end('\nBounce expired\n');
         else {
           // browser
           /*var existingIID = w[6];
