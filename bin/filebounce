@@ -355,7 +355,7 @@ function onRequest(req, res) {
               resSrc.end('{"message":"File received by ' + recvIP + '"}');
             else {
               resSrc.end(textOnly
-                         ? '\n\nFile received by ' + recvIP + '\n'
+                         ? '\nFile received by ' + recvIP + '\n'
                          : 'File received by ' + recvIP);
             }
           });
