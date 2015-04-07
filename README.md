@@ -50,7 +50,7 @@ File received by 192.168.1.5
 
 For graphical browsers, if you navigate to `http://myfbserver` you will be
 prompted with a form with a file field. There you can select the file and submit
-it. Shortly after a link will appear at the top of the page containing a link
+it. Shortly after, a link will appear at the top of the page containing a link
 to the file stream.
 
 Similarly you can navigate to a shared file stream URL in a graphical browser
