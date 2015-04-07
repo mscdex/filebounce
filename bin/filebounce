@@ -317,7 +317,7 @@ function onRequest(req, res) {
         if (wantsJSON)
           res.write('{"id":"' + id + '","url":"' + host + '/' + id + '"}');
         else
-          res.write(host + '/' + id);
+          res.write(host + '/' + id + '\n');
       }
     }
 
